@@ -97,7 +97,7 @@ Coloca la fotografia de tu prototipo dibujado a lapiz -- Aun no se cuenta con pr
 ## Fritzing
 ![image](./Imagenes/Circuito.PNG)
 
-## Pantallas Square Line Studio
+## Pantallas Flutter
 
 
 ## Video demostracion
