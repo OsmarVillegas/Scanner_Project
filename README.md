@@ -64,27 +64,24 @@ Implementar un sistema de análisis del usuario que monitorice condiciones como 
 
 
 ## Epicas del proyecto (Minimo debe de haber una épica por integrante de equipo)
-- Monitorear las condiciones ambientales de una habitación: esta épica se enfoca en el monitoreo de las condicioens ambientales de la habitación, como temperatura, ruido y oscuridad del ambiente. El objetivo es medir estos factores y evaluarlos para realizar acciones que puedan que puedan mejorar la calidad del sueño, tambien la información se recopilara y se visualizara a forma de resumen.
+- Monitorear las condiciones del usuario: esta épica se enfoca en el monitoreo de las caracteristicas del individuo, como temperatura, ritmo cardiaco y signos vitales. El objetivo es tener una medición confiable de esta información para almacenarla y presentarla al usuario de una forma resumida y util en una aplicación.
 
-- Control de calidad del ambiente: esta épica se enfoca en el control automático de la calidad del ambiente, para ello utiliza un sensor de temperatura, un ventilador, un sensor de ruido y un modulo DFPlayer. El objetivo es mejorar la calidad del ambiente en un rango óptimo para un sueño de calidad, los componentes se activa automáticamente cuando los niveles se encuentan por debajo del umbral desaedo.
+- Control del ambiente: esta épica se enfoca en el control del ambiente por medio del dispositivo, para ello utiliza un sensor un ventilador, un humidificador y un modulo DFPlayer. El objetivo es mejorar la calidad del ambiente en un rango óptimo para el usuario.
 
-- Almacenamiento y analsis de datos: esta épica se enfoca en el almacenamiento y analiss de la información recopilada en tiempo real por medio de los sensores. El objetivo es enviar los datos medidos por los sensores a una base de datos y permitir su consumo para el análisis de los datos para entregarlos a forma de resumen al usuario.
+- Almacenamiento y analsis de datos: esta épica se enfoca en el almacenamiento y analiss de la información recopilada en tiempo real por medio de los sensores. El objetivo es enviar los datos medidos por los sensores a una base de datos y permitir su consumo para el análisis de los datos y su posteropr entrega a forma de resumen al usuario.
 
 ## Tabla de historias de usuario
 | Id | Historia de usuario | Prioridad | Estimación | Como probarlo | Responsable |
 |----|---------------------|-----------|------------|---------------|-------------|
-|  1  | Como usuario quiero que se monitorice en tiempo real la temperatura que tengo para tener información más fiel a la realidad.| 1 | 3 Dias | Se obtiene información fiel en tiempo real através del sensor.| Osmar Israel Villegas Martínez |            |
-|  2  | Como usuario quiero que se monitorice en tiempo real mi ritmo cardiaco que tengo para tener información más fiel a la realidad.| 1 | 3 Dias | Se obtiene información fiel en tiempo real através del sensor.| Osmar Israel Villegas Martínez |
-|  3  | Como usuario quiero que se monitorice en tiempo real la luz de mi cuarto para obtener información más fiel a la realidad.| 1 | 3 Dias | Se obtiene información fiel en tiempo real através del sensor.| Osmar Israel Villegas Martínez |
-|  4  | Como usuario quiero que se monitorice en tiempo real el ruido en mi cuarto para obtener información más fiel a la realidad.| 1 | 3 Dias | Se obtiene información fiel en tiempo real através del sensor.| Osmar Israel Villegas Martínez |
-|  5  | Como usuario quiero una interfaz grafica para poder interactuar con la información obtenida facilmente. | 2 | 1 Semana | Se puede visualizar las graficas sin problemas desde un dispositivo movil, no existen errores graficos. | Victor Andrés Garay Montes|
-|  6  | Como usuario quiero tener un resumen de la calidad de mi sueño para obtener la información importante más facilmente.| 2 | 2 Semanas | Se da un resumen fiel a la información obtenida, no tiene errores graficos y es accesible desde un télefono movil. | Victor Andrés Garay Montes |
-|  7  | Como desarrollador quiero que la información se almacene en una base de datos que permita un facil y rapido acceso para facilitar su manejo. | 2 | 5 Dias | Se puede almacenar y acceder a la información para realizar el resumen y generar las graficas sin problemas desde cualquier dispositivo. | Jose Armanado Gutierrez Rodriguez |
-|  8  | Como usuario quiero saber la duración de mi sueño para saber si dormi las horas necesarias.| 2 | 1 Semana |Se da un resumen fiel a la información obtenida, no tiene errores graficos y es accesible desde un télefono movil.| Victor Andrés Garay Montes |
-|  9  | Como usuario quiero que el dispositivo sea comodo de usar para que no me moleste al dormir.| 3 | 1 Semana |El dispositivo que usa el usuario es comodo.| Osmar Israel Villegas Martínez |
-|  10 | Como usuario quiero poder colocar ruido para dormir facilmente desde la aplicación para ayudarme a dormir.| 3 | 1 Semana |Se coloca ruido entre una lista de sonidos, el dispositivo responde rapidamente y no permite generar un ruido que moleste a los usuarios al momento de dormir.| Jose Armando Gutierrez Rodriguez |
-|  11 | Como usuario quiero poder configurar el dispositivo para humidificar el ambiente. | 4 | 1 Semana |Como usuario quiero poder configurar el dispositivo para humidificar el ambiente.| Jose Armando Gutierrez Rodriguez |
-|  12 | Como usuario quiero poder configurar un recordatorio para dormir. | 5 | 1 Semana |Se puede configurar desde la aplicación y permite al usuario control sobre su ejecución.| Jose Armando Gutierrez Rodriguez |
+|  1  | Como usuario quiero que se monitorice en tiempo real la temperatura que tengo para tener información más fiel a la realidad.| 1 | 3 Dias | Se obtiene información fiel en tiempo real através del sensor.| Osmar Israel Villegas Martínez |
+|  2  | Como usuario quiero que se monitorice en tiempo real mi ritmo cardiaco para tener información más fiel a la realidad.| 1 | 3 Dias | Se obtiene información fiel en tiempo real através del sensor.| Osmar Israel Villegas Martínez |
+|  3  | Como usuario quiero que se monitorice en tiempo real mi ritmo cardiaco que tengo para tener información más fiel a la realidad.| 1 | 3 Dias | Se obtiene información fiel en tiempo real através del sensor.| Osmar Israel Villegas Martínez |
+|  4  | Como usuario quiero una interfaz grafica para poder interactuar con la información obtenida facilmente. | 2 | 1 Semana | Se puede visualizar las graficas sin problemas desde un dispositivo movil, no existen errores graficos. | Victor Andrés Garay Montes|
+|  5  | Como usuario quiero tener un resumen de calidad de la información recopilada por los sensores.| 2 | 2 Semanas | Se da un resumen fiel a la información obtenida, no tiene errores graficos y es accesible desde un télefono movil. | Victor Andrés Garay Montes |
+|  6  | Como desarrollador quiero que la información se almacene en una base de datos que permita un facil y rapido acceso para facilitar su manejo. | 2 | 5 Dias | Se puede almacenar y acceder a la información para realizar el resumen y generar las graficas sin problemas desde cualquier dispositivo. | Jose Armanado Gutierrez Rodriguez |
+|  7  | Como usuario quiero que el dispositivo sea comodo de usar para que no me moleste al portarlo.| 3 | 1 Semana |El dispositivo que usa el usuario es comodo.| Osmar Israel Villegas Martínez |
+|  8 | Como usuario quiero poder encender un ventilador para mejorar las condiciones del ambiente.| 3 | 1 Semana |Se coloca puede encender de forma remota un ventilador.| Jose Armando Gutierrez Rodriguez |
+|  9 | Como usuario quiero poder configurar el dispositivo para humidificar el ambiente. | 4 | 1 Semana |Como usuario quiero poder configurar el dispositivo para humidificar el ambiente.| Jose Armando Gutierrez Rodriguez |
 
 ## Tablero Kanban
 ![image](./Imagenes/Kanban.PNG)
