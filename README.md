@@ -15,7 +15,7 @@ Diseñar y desarrollar un sistema de IoT (Internet de las cosas) que permita mon
 Implementar un sistema de análisis del usuario que monitorice condiciones como presión sanguinea, temperatura y ritmo cardiaco, en base a los resultados el sistema realiza un resumen de la información para el usuario final.
 
 ## Arquitectura
-![image](./Imagenes/Arquitectura.jpg)
+![diagrama arquitectura iot](https://github.com/user-attachments/assets/e7ee0776-c6c4-4f53-ab46-e9d46b133269)
 
 ## Librerias Utilizadas
 - Pin
