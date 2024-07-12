@@ -1,4 +1,4 @@
-# Hypno's Dream Project
+# Scanner Project
 
 ## Integrantes
 - Osmar Israel Villegas Martinez 
