@@ -6,7 +6,7 @@
 - Victor Andres Garay Montes
 
 ## Visión
-El objetivo del proyecto es desarrollar un producto de calidad capaz de monitorear los signos vitales del usuario para entregarselos de una forma práctica, el proyecto esta pensado especialmente para aquellas personas que cuentan con la necesidad de saber estas informacón, para cumplir con el proposito el dispositivo implementa técnologias para la recolección y analisis de datos para poder dar toda la información resumida al usario final.
+El objetivo del proyecto es desarrollar un dispositivo Wearable capaz de monitorear los signos vitales del usuario e informacion del ambiemte para entregarselos de una forma práctica, el proyecto esta pensado especialmente para aquellas personas que cuentan con la necesidad de saber estas informacón, para cumplir con el proposito el dispositivo implementa técnologias para la recolección y analisis de datos para poder dar toda la información resumida al usario final.
 
 ## Objetivo general
 Diseñar y desarrollar un sistema de IoT (Internet de las cosas) que permita monitorear los signos vitales del usuario, monitoreando y entregando la información al usuario final de forma resumida.
