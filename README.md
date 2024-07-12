@@ -6,13 +6,13 @@
 - Victor Andres Garay Montes
 
 ## Visión
-El objetivo del proyecto es desarrollar un producto de claidad capaz de monitorear y mejorar la calidad de sueño del usuarios final, el proyecto esta pensado especialmente para aquellas personas que cuentan con problemas del sueño, para cumplir con el proposito el dispositivo implementa técnologias para la recolección y analisis de datos para poder dar recomendaciones al usario final.
+El objetivo del proyecto es desarrollar un producto de calidad capaz de monitorear los signos vitales del usuario para entregarselos de una forma práctica, el proyecto esta pensado especialmente para aquellas personas que cuentan con la necesidad de saber estas informacón, para cumplir con el proposito el dispositivo implementa técnologias para la recolección y analisis de datos para poder dar toda la información resumida al usario final.
 
 ## Objetivo general
-Diseñar y desarrollar un sistema de IoT (Internet de las cosas) que permita monitorear y controlar el ambiente de una habitación con el fin de mejorar la calidad de sueño del usuario, monitoreando y en el caso de ser necesario mejorando las condiciones del ambiente para garantizar un sueño de calidad.
+Diseñar y desarrollar un sistema de IoT (Internet de las cosas) que permita monitorear los signos vitales del usuario, monitoreando y entregando la información al usuario final de forma resumida.
 
 ### Objetivos específicos
-Implementar un sistema de análisis del ambiente que monitorice condiciones como luz, ruido, temperatura y ritmo cardiaco en una habitación, en base a los resultados el sistema puede mejorar la calidad del ambiente y activar automáticamente mecanismos como un ventilador o música cuando las condiciones puedan llegar a perjudicar la calidad del sueño.
+Implementar un sistema de análisis del usuario que monitorice condiciones como presión sanguinea, temperatura y ritmo cardiaco, en base a los resultados el sistema realiza un resumen de la información para el usuario final.
 
 ## Arquitectura
 ![image](./Imagenes/Arquitectura.jpg)
@@ -45,7 +45,7 @@ Implementar un sistema de análisis del ambiente que monitorice condiciones como
 | 2 | Thonny  | 4.1.4 |  IDE |
 | 3 | Node-Red | 3.2.9 | MQTT |
 | 4 | Firebase | 13.8.0 | NoSQL |
-| 5 | Square Line Studio | 1.4.1 | IDE |
+| 5 | Flutterf | 3.22.2 | IDE |
 
 ## Tabla con el hardware utilizado (El costo de cada componente es al dia de 2 de junio del 2024)
 | Id | Componente | Descripción | Imagen | Cantidad | Costo total |
