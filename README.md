@@ -84,7 +84,7 @@ Implementar un sistema de análisis del usuario que monitorice condiciones como 
 |  9 | Como usuario quiero poder configurar el dispositivo para humidificar el ambiente. | 4 | 1 Semana |Como usuario quiero poder configurar el dispositivo para humidificar el ambiente.| Jose Armando Gutierrez Rodriguez |
 
 ## Tablero Kanban
-![image](./Imagenes/Kanban.PNG)
+![image](https://github.com/user-attachments/assets/e5a68c2a-85fa-402f-af01-5d64a428bad7)
 
 
 ## Prototipo en dibujo
